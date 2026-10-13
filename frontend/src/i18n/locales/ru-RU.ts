@@ -1800,7 +1800,6 @@ export default {
       getDocumentContent: 'Получение содержимого документа',
       wikiReadSourceDoc: 'Читать исходный документ',
       readDocument: 'Чтение документа',
-      readAttachment: 'Чтение вложения',
       listDocuments: 'Список документов',
       todoWrite: 'Управление планами',
       knowledgeGraphExtract: 'Извлечение графа знаний',
@@ -1825,6 +1824,14 @@ export default {
       heading: 'Файлы навыка',
       script: 'скрипт',
       instructions: 'Инструкции навыка'
+    },
+    imageView: {
+      summary: 'Просмотрены изображения {numbers} из {total} в «{file}»',
+      single: 'Просмотрено изображение «{file}»',
+      descriptionsHeading: 'Описания от модели компьютерного зрения',
+      imageLabel: 'Изображение #{n}',
+      noDescription: 'Не удалось описать',
+      remaining: 'Ещё не просмотрено: {count}'
     },
     sandboxFiles: {
       found: 'Найдено файлов: {count}',
